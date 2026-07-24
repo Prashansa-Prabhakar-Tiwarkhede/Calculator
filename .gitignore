@@ -1,0 +1,16 @@
+# --- Backend (Maven / Java) ---
+backend/target/
+*.class
+
+# --- Frontend (Node / Vite) ---
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.production
+frontend/package-lock.json
+
+# --- OS / IDE ---
+.DS_Store
+.idea/
+.vscode/
+*.iml
